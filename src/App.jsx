@@ -9,7 +9,7 @@ function App() {
   return (
     <>
           <h1> Mariela Rosario del Pilar Ramirez Robles de Cristo Jesus Rey y Redentor Nuestro </h1> 
-          <p>Aqui esta tu pagina, tego todo el dia libre hoy y mañana : )</p >
+          <p>Aqui esta tu pagina, tego todo el dia libre Hoy y mañana : )</p >
     </>
   )
 }
