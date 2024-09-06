@@ -1,15 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-          <h1> Mariela Rosario del Pilar Ramirez Robles de Cristo Jesus Rey y Redentor Nuestro </h1> 
-          <p>Aqui esta tu pagina, tego todo el dia libre Hoy y mañana : )</p >
+          <h1>111111 </h1> 
+         <h2>222222</h2>
+         <h3>333333</h3>
+         <h4>444444</h4>
     </>
   )
 }
