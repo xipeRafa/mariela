@@ -28,3 +28,19 @@ h4{
    color: var(--darkLogo2);
 }
 
+div{
+   height: 100px;
+}
+
+.uno{
+      background-color: var(--blueLogo);
+}
+.dos{
+   background-color: var(--blueLogo2);
+}
+.tres{
+   background-color: var(--darkLogo);
+}
+.cuatro{
+   background-color: var(--darkLogo2);
+}
