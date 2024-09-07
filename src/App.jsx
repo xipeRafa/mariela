@@ -1,7 +1,7 @@
 
 
 import "./css/App.css";
-import img1 from "./imgs/1.png";
+// import img1 from "./imgs/1.png";
 
 
 import { Routes, Route,  } from "react-router-dom";
@@ -24,12 +24,12 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/RealControlF/servicios" element={<Servicios />} />
-        <Route path="/RealControlF/" element={<Header />} />
+        <Route path="/mariela/servicios" element={<Servicios />} />
+        <Route path="/mariela/" element={<Header />} />
         {/*<Route path="/RealControlF/tipos" element={<Tipos />} />*/}
-        <Route path="/RealControlF/licencias" element={<Licencias />} />
-        <Route path="/RealControlF/clientes" element={<Clientes />} />
-        <Route path="/RealControlF/contacto" element={<Contacto />} />
+        <Route path="/mariela/licencias" element={<Licencias />} />
+        <Route path="/mariela/clientes" element={<Clientes />} />
+        <Route path="/mariela/contacto" element={<Contacto />} />
 
         <Route path="*" element={<Header />} />
       </Routes>

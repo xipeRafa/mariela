@@ -29,17 +29,17 @@ export default function Navbar() {
             <div className={isActive ? "menu " : "menu display"} onClick={InWidth}>
 
 
-                <NavLink to="/RealControlF" onClick={()=>window.scrollTo(0,0)}> Inicio </NavLink>
+                <NavLink to="/mariela" onClick={()=>window.scrollTo(0,0)}> Inicio </NavLink>
 
-                <NavLink to="/RealControlF/servicios" onClick={()=>window.scrollTo(0,0)}> Servicios </NavLink>
+                <NavLink to="/mariela/servicios" onClick={()=>window.scrollTo(0,0)}> Servicios </NavLink>
 
                 {/*<NavLink to="/RealControlF/tipos" onClick={()=>window.scrollTo(0,0)}> Tipos de Plagas </NavLink>*/}
 
-                <NavLink to="/RealControlF/licencias" onClick={()=>window.scrollTo(0,0)}> Licencias </NavLink>
+                <NavLink to="/mariela/licencias" onClick={()=>window.scrollTo(0,0)}> Licencias </NavLink>
 
-                <NavLink to="/RealControlF/clientes" onClick={()=>window.scrollTo(0,0)}> Clientes </NavLink>
+                <NavLink to="/mariela/clientes" onClick={()=>window.scrollTo(0,0)}> Clientes </NavLink>
 
-                <NavLink to="/RealControlF/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
+                <NavLink to="/mariela/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
 
                 {/*<NavLink to="/AhilloPage/gobierno">    Gobierno </NavLink>
 

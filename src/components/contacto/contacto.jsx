@@ -1,11 +1,17 @@
 import './contacto.css'
 
 
-
+import img111 from "../../imgs/1.png";
 export default function Header() {
 
 
     return (  <div className='contacto'>
+
+
+        
+             <div className="img111">
+            <img src={img111} />
+        </div>
 
                     CONTACTO:<br />
                 Mariela Rosario Del Ramirez Robles <span>📱 +52 1 662 295 5204</span><br />

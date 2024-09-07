@@ -1,6 +1,7 @@
 import './footer.css'
 
 
+import img111 from "../../imgs/1.png";
 
 export default function Footer() {
 
@@ -10,9 +11,14 @@ export default function Footer() {
 
 
             <footer>
-                  
+
+
+             <div className="img111">
+            <img src={img111} />
+        </div>
+              <div>    
 				CONTACTO:<br />
-				Mariela Rosario Del Ramirez Robles <span>📱 +52 1 662 295 5204</span><br />
+				Mariela Ramirez Robles <span>📱 +52 1 662 295 5204</span><br />
 				<hr />
 				marsegestion2@gmail.com<br />
 
@@ -30,7 +36,7 @@ export default function Footer() {
 				Hermosillo, Sonora <br />
 				Entre No Reelección e Independencia<br />
 				Col. Villa de Seris<br />*/}
-
+     </div>  
 
             </footer>
 	  	)
