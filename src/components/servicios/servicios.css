@@ -9,6 +9,10 @@
   color: var(--gray-700)
 }
 
+.servicios1>span{
+  color: var(--blueLogo);
+}
+
 @media(max-width:900px){
   .servicios1{
     font-size: 19px;

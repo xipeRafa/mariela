@@ -15,6 +15,13 @@ header>span{
   font-weight: bold;
 }
 
+.nl-c{
+  text-align: center;
+}
+.nl{
+  width: 300px;
+}
+
 
 @media(max-width:900px){
   header>p{

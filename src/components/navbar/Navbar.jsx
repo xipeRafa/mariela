@@ -39,7 +39,11 @@ export default function Navbar() {
 
                 <NavLink to="/mariela/clientes" onClick={()=>window.scrollTo(0,0)}> Clientes </NavLink>
 
+                <NavLink to="/mariela/cursos" onClick={()=>window.scrollTo(0,0)}> Cursos </NavLink>
+
                 <NavLink to="/mariela/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
+
+
 
                 {/*<NavLink to="/AhilloPage/gobierno">    Gobierno </NavLink>
 
